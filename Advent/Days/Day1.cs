@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Advent
@@ -17,10 +11,19 @@ namespace Advent
             InitializeComponent();
         }
 
+        private void btnCalculate2_Click(object sender, EventArgs e)
+        {
+            var pos = GetFile(txtPath.Text);
+            var answers = DoMathFor2(txtTarget.Text, pos);
+
+            lblValues.Text = answers[0].ToString() + ", " + answers[1].ToString();
+            lblMultiplied.Text = (answers[0] * answers[1]).ToString();
+        }
+
         private void btnCalculate_Click(object sender, EventArgs e)
         {
             var pos = GetFile(txtPath.Text);
-            var answers = DoMath(txtTarget.Text, pos);
+            var answers = DoMathFor3(txtTarget.Text, pos);
 
             lblValues.Text = answers[0].ToString() + ", " + answers[1].ToString() + ", " + answers[2].ToString();
             lblMultiplied.Text = (answers[0] * answers[1] * answers[2]).ToString();
@@ -43,7 +46,32 @@ namespace Advent
             return possible;
         }
 
-        private List<int> DoMath(string target, List<int> possibles)
+        private List<int> DoMathFor2(string target, List<int> possibles)
+        {
+            List<int> values = new List<int>();
+
+            foreach (int num in possibles)
+            {
+                foreach (int num2 in possibles)
+                {
+                   if ((num + num2) == Convert.ToInt32(target))
+                   {
+                        if (!values.Contains(num))
+                        {
+                            values.Add(num);
+                        }
+                        if (!values.Contains(num2))
+                        {
+                            values.Add(num2);
+                        }
+                   }                   
+                }
+            }
+
+            return values;
+        }
+        
+        private List<int> DoMathFor3(string target, List<int> possibles)
         {
             List<int> values = new List<int>();
 

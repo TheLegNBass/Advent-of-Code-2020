@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Day1));
             this.txtPath = new System.Windows.Forms.TextBox();
             this.lblPath = new System.Windows.Forms.Label();
             this.btnCalculate = new System.Windows.Forms.Button();
@@ -37,6 +38,7 @@
             this.lblValues = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblMultiplied = new System.Windows.Forms.Label();
+            this.btnCalculate2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtPath
@@ -61,7 +63,7 @@
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(120, 51);
             this.btnCalculate.TabIndex = 2;
-            this.btnCalculate.Text = "Calculate";
+            this.btnCalculate.Text = "Calculate for 3";
             this.btnCalculate.UseVisualStyleBackColor = true;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
@@ -115,11 +117,22 @@
             this.lblMultiplied.Size = new System.Drawing.Size(0, 13);
             this.lblMultiplied.TabIndex = 8;
             // 
+            // btnCalculate2
+            // 
+            this.btnCalculate2.Location = new System.Drawing.Point(15, 256);
+            this.btnCalculate2.Name = "btnCalculate2";
+            this.btnCalculate2.Size = new System.Drawing.Size(120, 51);
+            this.btnCalculate2.TabIndex = 9;
+            this.btnCalculate2.Text = "Calculate for 2";
+            this.btnCalculate2.UseVisualStyleBackColor = true;
+            this.btnCalculate2.Click += new System.EventHandler(this.btnCalculate2_Click);
+            // 
             // Day1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(328, 319);
+            this.ClientSize = new System.Drawing.Size(329, 321);
+            this.Controls.Add(this.btnCalculate2);
             this.Controls.Add(this.lblMultiplied);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblValues);
@@ -129,6 +142,7 @@
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.lblPath);
             this.Controls.Add(this.txtPath);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Day1";
             this.Text = "Day 1 Calculator";
             this.ResumeLayout(false);
@@ -147,6 +161,7 @@
         private System.Windows.Forms.Label lblValues;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblMultiplied;
+        private System.Windows.Forms.Button btnCalculate2;
     }
 }
 

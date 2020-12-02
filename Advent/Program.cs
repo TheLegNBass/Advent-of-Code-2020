@@ -16,7 +16,7 @@ namespace Advent
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Day1());
+            Application.Run(new MainMenu());
         }
     }
 }

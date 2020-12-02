@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,6 +55,12 @@
     <Compile Include="Days\Day1.Designer.cs">
       <DependentUpon>Day1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Days\Day2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Days\Day2.Designer.cs">
+      <DependentUpon>Day2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +72,12 @@
     <EmbeddedResource Include="Days\Day1.resx">
       <DependentUpon>Day1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Days\Day2.resx">
+      <DependentUpon>Day2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Menu.resx">
+      <DependentUpon>Main Menu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -71,6 +86,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -84,6 +100,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="Images\favicon-16x16.ico" />
+    <Content Include="Images\favicon-16x16.png" />
+    <Content Include="Images\favicon-32x32.ico" />
+    <Content Include="Images\favicon-32x32.png" />
+    <Content Include="Images\favicon.ico" />
+    <Content Include="Images\tree.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

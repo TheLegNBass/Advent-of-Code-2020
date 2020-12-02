@@ -8,3 +8,15 @@ C:\Users\zmaar_gd8gg16\source\repos\Advent\obj\Debug\Advent of Code 2020.csproj.
 C:\Users\zmaar_gd8gg16\source\repos\Advent\obj\Debug\Advent of Code 2020.csproj.CoreCompileInputs.cache
 C:\Users\zmaar_gd8gg16\source\repos\Advent\obj\Debug\Advent.exe
 C:\Users\zmaar_gd8gg16\source\repos\Advent\obj\Debug\Advent.pdb
+H:\repos\Advent of Code 2020\Advent-of-Code-2020\Advent\bin\Debug\Advent.exe.config
+H:\repos\Advent of Code 2020\Advent-of-Code-2020\Advent\bin\Debug\Advent.exe
+H:\repos\Advent of Code 2020\Advent-of-Code-2020\Advent\bin\Debug\Advent.pdb
+H:\repos\Advent of Code 2020\Advent-of-Code-2020\Advent\obj\Debug\Advent of Code 2020.csprojAssemblyReference.cache
+H:\repos\Advent of Code 2020\Advent-of-Code-2020\Advent\obj\Debug\Advent.Day1.resources
+H:\repos\Advent of Code 2020\Advent-of-Code-2020\Advent\obj\Debug\Advent.MainMenu.resources
+H:\repos\Advent of Code 2020\Advent-of-Code-2020\Advent\obj\Debug\Advent.Properties.Resources.resources
+H:\repos\Advent of Code 2020\Advent-of-Code-2020\Advent\obj\Debug\Advent of Code 2020.csproj.GenerateResource.cache
+H:\repos\Advent of Code 2020\Advent-of-Code-2020\Advent\obj\Debug\Advent of Code 2020.csproj.CoreCompileInputs.cache
+H:\repos\Advent of Code 2020\Advent-of-Code-2020\Advent\obj\Debug\Advent.exe
+H:\repos\Advent of Code 2020\Advent-of-Code-2020\Advent\obj\Debug\Advent.pdb
+H:\repos\Advent of Code 2020\Advent-of-Code-2020\Advent\obj\Debug\Advent.Days.Day2.resources
