@@ -1,0 +1,10 @@
+C:\Users\zmaar_gd8gg16\source\repos\Advent\bin\Debug\Advent.exe.config
+C:\Users\zmaar_gd8gg16\source\repos\Advent\bin\Debug\Advent.exe
+C:\Users\zmaar_gd8gg16\source\repos\Advent\bin\Debug\Advent.pdb
+C:\Users\zmaar_gd8gg16\source\repos\Advent\obj\Debug\Advent of Code 2020.csprojAssemblyReference.cache
+C:\Users\zmaar_gd8gg16\source\repos\Advent\obj\Debug\Advent.Day1.resources
+C:\Users\zmaar_gd8gg16\source\repos\Advent\obj\Debug\Advent.Properties.Resources.resources
+C:\Users\zmaar_gd8gg16\source\repos\Advent\obj\Debug\Advent of Code 2020.csproj.GenerateResource.cache
+C:\Users\zmaar_gd8gg16\source\repos\Advent\obj\Debug\Advent of Code 2020.csproj.CoreCompileInputs.cache
+C:\Users\zmaar_gd8gg16\source\repos\Advent\obj\Debug\Advent.exe
+C:\Users\zmaar_gd8gg16\source\repos\Advent\obj\Debug\Advent.pdb
