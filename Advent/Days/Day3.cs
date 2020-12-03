@@ -30,6 +30,8 @@ namespace Advent.Days
             lblValid.Text = GetMultipleNumberOfTrees(txtPath.Text).ToString();
         }
 
+        #region Counting Trees
+
         private int GetNumberOfTrees(string path)
         {
             int xVal = 0;
@@ -67,12 +69,12 @@ namespace Advent.Days
 
         private double GetMultipleNumberOfTrees(string path)
         {
-            double trees = 0;
-            double slope1 = 0;
-            double slope2 = 0;
-            double slope3 = 0;
-            double slope4 = 0;
-            double slope5 = 0;
+            long trees = 0;
+            long slope1 = 0;
+            long slope2 = 0;
+            long slope3 = 0;
+            long slope4 = 0;
+            long slope5 = 0;
             int x1 = 0;
             int x2 = 0;
             int x3 = 0;
@@ -188,7 +190,6 @@ namespace Advent.Days
                 }
                 else
                 {
-                    x5++;
                     y5++;
                 }
             }
@@ -198,6 +199,7 @@ namespace Advent.Days
             return trees;
         }
 
+        #endregion Counting Trees
 
     }
 }
