@@ -32,6 +32,12 @@ namespace Advent
             frm.Show();
         }
 
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            Days.Day3 frm = new Days.Day3();
+            frm.Show();
+        }
+
         #endregion Day Buttons
 
         #region Controls

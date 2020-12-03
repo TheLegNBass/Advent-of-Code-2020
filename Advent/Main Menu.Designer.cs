@@ -34,6 +34,7 @@
             this.btnCredits = new System.Windows.Forms.Button();
             this.lblInstructions = new System.Windows.Forms.Label();
             this.btnDay2 = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnQuit
@@ -103,12 +104,29 @@
             this.btnDay2.UseVisualStyleBackColor = false;
             this.btnDay2.Click += new System.EventHandler(this.btnDay2_Click);
             // 
+            // btn3
+            // 
+            this.btn3.BackColor = System.Drawing.Color.Transparent;
+            this.btn3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn3.FlatAppearance.BorderSize = 0;
+            this.btn3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3.ForeColor = System.Drawing.Color.Transparent;
+            this.btn3.Location = new System.Drawing.Point(337, 278);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(80, 84);
+            this.btn3.TabIndex = 6;
+            this.btn3.UseVisualStyleBackColor = false;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Advent.Properties.Resources.tree;
             this.ClientSize = new System.Drawing.Size(691, 892);
+            this.Controls.Add(this.btn3);
             this.Controls.Add(this.btnDay2);
             this.Controls.Add(this.lblInstructions);
             this.Controls.Add(this.btnCredits);
@@ -129,5 +147,6 @@
         private System.Windows.Forms.Button btnCredits;
         private System.Windows.Forms.Label lblInstructions;
         private System.Windows.Forms.Button btnDay2;
+        private System.Windows.Forms.Button btn3;
     }
 }
