@@ -36,6 +36,7 @@
             this.btnDay2 = new System.Windows.Forms.Button();
             this.btn3 = new System.Windows.Forms.Button();
             this.btn4 = new System.Windows.Forms.Button();
+            this.btn5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnQuit
@@ -137,12 +138,29 @@
             this.btn4.UseVisualStyleBackColor = false;
             this.btn4.Click += new System.EventHandler(this.btn4_Click);
             // 
+            // btn5
+            // 
+            this.btn5.BackColor = System.Drawing.Color.Transparent;
+            this.btn5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn5.FlatAppearance.BorderSize = 0;
+            this.btn5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5.ForeColor = System.Drawing.Color.Transparent;
+            this.btn5.Location = new System.Drawing.Point(294, 379);
+            this.btn5.Name = "btn5";
+            this.btn5.Size = new System.Drawing.Size(80, 84);
+            this.btn5.TabIndex = 8;
+            this.btn5.UseVisualStyleBackColor = false;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Advent.Properties.Resources.tree;
             this.ClientSize = new System.Drawing.Size(691, 892);
+            this.Controls.Add(this.btn5);
             this.Controls.Add(this.btn4);
             this.Controls.Add(this.btn3);
             this.Controls.Add(this.btnDay2);
@@ -167,5 +185,6 @@
         private System.Windows.Forms.Button btnDay2;
         private System.Windows.Forms.Button btn3;
         private System.Windows.Forms.Button btn4;
+        private System.Windows.Forms.Button btn5;
     }
 }

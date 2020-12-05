@@ -73,6 +73,12 @@
     <Compile Include="Days\Day4.Designer.cs">
       <DependentUpon>Day4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Days\Day5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Days\Day5.Designer.cs">
+      <DependentUpon>Day5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Days\Day4.resx">
       <DependentUpon>Day4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Days\Day5.resx">
+      <DependentUpon>Day5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main Menu.resx">
       <DependentUpon>Main Menu.cs</DependentUpon>

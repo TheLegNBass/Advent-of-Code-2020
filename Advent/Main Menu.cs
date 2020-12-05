@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Advent.Days;
 
 namespace Advent
 {
@@ -44,6 +45,12 @@ namespace Advent
             frm.Show();
         }
 
+        private void btn5_Click(object sender, EventArgs e)
+        {
+            Days.Day5 frm = new Day5();
+            frm.Show();
+        }
+
         #endregion Day Buttons
 
         #region Controls
@@ -59,6 +66,5 @@ namespace Advent
         }
 
         #endregion Controls
-
     }
 }

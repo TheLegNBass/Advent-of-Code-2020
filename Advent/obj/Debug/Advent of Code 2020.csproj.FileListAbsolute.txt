@@ -22,3 +22,4 @@ H:\repos\Advent of Code 2020\Advent-of-Code-2020\Advent\bin\Debug\Advent.exe
 H:\repos\Advent of Code 2020\Advent-of-Code-2020\Advent\bin\Debug\Advent.pdb
 H:\repos\Advent of Code 2020\Advent-of-Code-2020\Advent\obj\Debug\Advent.exe
 H:\repos\Advent of Code 2020\Advent-of-Code-2020\Advent\obj\Debug\Advent.pdb
+H:\repos\Advent of Code 2020\Advent-of-Code-2020\Advent\obj\Debug\Advent.Days.Day5.resources
